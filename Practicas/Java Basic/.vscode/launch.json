@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch clase01",
+            "request": "launch",
+            "mainClass": "clase01.clase01",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "prubea.prueba",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch NumeroMayorMenor",
             "request": "launch",
             "mainClass": "NumeroMayorMenor",
