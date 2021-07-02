@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch NumeroMayor",
+            "request": "launch",
+            "mainClass": "NumeroMayor",
+            "projectName": "HelloWorld_afdbfd65"
+        },
+        {
+            "type": "java",
+            "name": "Launch App03",
+            "request": "launch",
+            "mainClass": "App03",
+            "projectName": "HelloWorld_afdbfd65"
+        },
+        {
+            "type": "java",
+            "name": "Launch App02",
+            "request": "launch",
+            "mainClass": "App02",
+            "projectName": "HelloWorld_afdbfd65"
+        },
+        {
+            "type": "java",
+            "name": "Launch App01",
+            "request": "launch",
+            "mainClass": "App01",
+            "projectName": "HelloWorld_afdbfd65"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "HelloWorld_afdbfd65"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "vmArgs": "--module-path C:/Users/leoni/OneDrive/Documentos/Desarrollo/Uninorte/ciclo2/javafx-sdk-11.0.2/lib/ --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "HelloWorld",
+            "projectName": "HelloWorld_afdbfd65"
+        }
+    ]
+}
