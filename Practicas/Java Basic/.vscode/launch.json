@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "imaster.App",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch ejemplo02",
+            "request": "launch",
+            "mainClass": "clase01.ejemplo02",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch clase01",
             "request": "launch",
             "mainClass": "clase01.clase01",
