@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "clase02.prueba",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch sesion02",
             "request": "launch",
             "mainClass": "imaster.sesion02",
