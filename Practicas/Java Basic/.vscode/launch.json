@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch practicaSesion02",
+            "request": "launch",
+            "mainClass": "clase02.practicaSesion02",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch vectoresEjemplo02",
+            "request": "launch",
+            "mainClass": "clase02.vectoresEjemplo02",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch vectoresEjemplo01",
+            "request": "launch",
+            "mainClass": "clase02.vectoresEjemplo01",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch vectores",
+            "request": "launch",
+            "mainClass": "clase02.vectores",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch ejemplo4",
             "request": "launch",
             "mainClass": "clase02.ejemplo4",
