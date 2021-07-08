@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Vista",
+            "request": "launch",
+            "mainClass": "imaster.sesion02.view.Vista",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch practicaSesion02",
             "request": "launch",
             "mainClass": "clase02.practicaSesion02",
