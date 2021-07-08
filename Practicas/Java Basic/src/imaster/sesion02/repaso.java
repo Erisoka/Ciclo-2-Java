@@ -1,6 +1,6 @@
-package imaster;
+package imaster.sesion02;
 
-public class sesion02 {
+public class repaso {
     /*
      * private String nombre; private int identificacion; private double estatura;
      * private float peso; private char sexo; private boolean estaVacunado;
