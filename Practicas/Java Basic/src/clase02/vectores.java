@@ -3,9 +3,9 @@ package clase02;
 import java.util.Scanner;
 
 public class vectores {
+    public static Scanner leer = new Scanner(System.in);
     public static void main(String[] args) {
         int n, i, V[] = new int[100];
-        Scanner leer = new Scanner(System.in);
         System.out.print("Cantidad estudiantes: ");
         n = leer.nextInt();
         for (i = 0; i < n; i++) {

@@ -99,7 +99,7 @@ public class Nota {
         return escala10;
     }
 
-    public double getEscala5() {
+    public float getEscala5() {
         return escala5;
     }
 
@@ -116,7 +116,7 @@ public class Nota {
         this.escala100 = escala100;
     }
 
-    public void setEscala5(double escala5) {
+    public void setEscala5(Float escala5) {
         this.escala5 = escala5;
     }
 

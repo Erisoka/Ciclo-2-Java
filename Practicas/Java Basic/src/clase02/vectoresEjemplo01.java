@@ -2,11 +2,11 @@ package clase02;
 import java.util.Scanner;
 
 public class vectoresEjemplo01 {
+    public static Scanner leer = new Scanner(System.in);
     public static void main(String[] args) {
-        Scanner leer = new Scanner(System.in);
         System.out.println("Ejemplo con vectores unidimensionales");
 
-        int n, i, x, v[];
+        int n, i, v[];
         System.out.print("Ingrese tamaño vector: ");
         n = leer.nextInt();
         v = new int[n];
