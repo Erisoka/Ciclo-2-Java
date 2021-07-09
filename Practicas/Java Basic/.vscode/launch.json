@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch practicasesion03",
+            "request": "launch",
+            "mainClass": "clase03.practicasesion03",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch practica03",
             "request": "launch",
             "mainClass": "clase03.practica03",
