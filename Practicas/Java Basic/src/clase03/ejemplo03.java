@@ -3,7 +3,7 @@ package clase03;
 import java.util.Random;
 import java.util.Scanner;
 
-public class practica03 {
+public class ejemplo03 {
     public static Scanner leer = new Scanner(System.in);
     public static void main(String[] args) {
         int n, m, matA[][];
