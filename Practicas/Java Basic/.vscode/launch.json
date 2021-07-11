@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch reto1",
+            "request": "launch",
+            "mainClass": "reto01.reto1",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch reto01dev",
+            "request": "launch",
+            "mainClass": "reto01.reto01dev",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch reto01",
+            "request": "launch",
+            "mainClass": "reto01.reto01",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch practicasesion03",
             "request": "launch",
             "mainClass": "clase03.practicasesion03",
