@@ -1,6 +1,7 @@
 package clase03;
 
 import java.util.Scanner;
+import java.text.DecimalFormat;
 
 public class practicasesion03 {
     public static Scanner leer = new Scanner(System.in);
@@ -55,8 +56,9 @@ public class practicasesion03 {
                 }
             }
         }
-
+        DecimalFormat f = new DecimalFormat("0.000");
         // Promedio de las cantidades de cada producto en bodega y su respectivo codigo
+        float mayor = 0; int codigoMayor = 0;
         for (int j = 0; j < cantidadProductos; j++) {
             float sumador = 0; float contador = 0;
             for (int i = 0; i < cantidadSedes; i++) {
@@ -64,11 +66,17 @@ public class practicasesion03 {
                 contador = contador + 1;
             }
             if (contador > 0) {
-                System.out.println("La suma del producto "+listaCodigoProducto[j]+" es: "+sumador);
-                System.out.println("El contador del producto "+listaCodigoProducto[j]+" es: "+contador);
+                // System.out.println("La suma del producto "+listaCodigoProducto[j]+" es: "+sumador);
+                // System.out.println("El contador del producto "+listaCodigoProducto[j]+" es: "+contador);
                 Float promedio = (sumador/contador);
-                System.out.println("El promedio de productos del código " + listaCodigoProducto[j] + " es " + promedio);
+                // System.out.println("El promedio de productos del código " + listaCodigoProducto[j] + " es " + promedio);
+                System.out.println("El promedio de productos del código " + listaCodigoProducto[j] + " es " +f.format(promedio));
+                if (promedio > mayor) {
+                    mayor = promedio;
+                    codigoMayor = j;
+                }
             }
         }
+        System.out.println("El código con mayor promedio es: "+listaCodigoProducto[codigoMayor]+" con valor: "+ mayor);
     }
 }
