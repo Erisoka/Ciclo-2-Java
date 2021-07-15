@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Appdev",
+            "request": "launch",
+            "mainClass": "reto02.Appdev",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch cp05",
             "request": "launch",
             "mainClass": "clase05.cp05",
