@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch cp10",
+            "request": "launch",
+            "mainClass": "clase10.cp10",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "clase10.App",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "reto02.App",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch cp08",
+            "request": "launch",
+            "mainClass": "clase08.cp08",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "clase08.App",
+            "projectName": "Java Basic_a4c1b3c8"
+        },
+        {
+            "type": "java",
             "name": "Launch cp07",
             "request": "launch",
             "mainClass": "clase07.cp07",

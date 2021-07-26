@@ -1,10 +1,12 @@
+// package reto02;
+
 public class App {
     public static void main(String[] args) {
         SchoolGradingSystem colegio = new SchoolGradingSystem();
         colegio.readData();
-        colegio.question1();
-        colegio.question2();
-        colegio.question3();
-        colegio.question4();
+        System.out.println(colegio.question1());
+        System.out.println(colegio.question2());
+        System.out.println(colegio.question3());
+        System.out.println(colegio.question4());
     }
 }

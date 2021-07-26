@@ -1,3 +1,5 @@
+// package reto02;
+
 import java.util.Scanner;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
@@ -65,19 +67,24 @@ public class SchoolGradingSystem {
         f = new DecimalFormat("0.00", separator);
     }
 
-    public void question1() {
+    public String question1() {
+        String r = "";
         if (contador > 0) {
             float promedio = sumador / contador;
-            System.out.println(f.format(promedio));
+            // System.out.println(f.format(promedio));
+            r = f.format(promedio);
         }
+        return r;
     }
 
-    public void question2() {
-        System.out.println(contInsuficientes);
+    public int question2() {
+        // System.out.println(contInsuficientes);
+        return contInsuficientes;
     }
 
-    public void question3() {
+    public String question3() {
         float promLit = 0; float promBio = 0; float promGeo = 0;
+        String r = "";
         if (contLit > 0) {
             promLit = sumLit / contLit;
         }
@@ -88,17 +95,23 @@ public class SchoolGradingSystem {
             promGeo = sumGeo / contGeo;
         }
         if (promLit >= promBio && promLit >= promGeo) {
-            System.out.println(materiasString[0]);
+            // System.out.println(materiasString[0]);
+            r = materiasString[0];
         } else {
             if (promBio >= promLit && promBio >= promGeo) {
-                System.out.println(materiasString[1]);
+                // System.out.println(materiasString[1]);
+                r = materiasString[1];
             } else {
-                System.out.println(materiasString[2]);
+                // System.out.println(materiasString[2]);
+                r = materiasString[2];
             }
         }
+        return r;
     }
 
-    public void question4() {
-        System.out.println(nombresString[(int)idEstudiante - 1]);
+    public String question4() {
+        // System.out.println(nombresString[(int)idEstudiante - 1]);
+        String r = nombresString[(int)idEstudiante - 1];
+        return r;
     }
 }
